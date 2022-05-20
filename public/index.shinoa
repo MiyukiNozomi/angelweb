@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>%title%</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #1a1a1a;
+                color: #FFFFFF;
+            }
+            .headbar {
+                background-image: url("svb.gif");
+                background-repeat: repeat-x;
+                color: #FFFFFF;
+                padding: .8em .5em .4em .8em;
+                height: auto;
+                font-size: 1em;
+                margin: 0;
+            }
+            .body {
+                margin-left: 15px;
+            }
+            a {
+                color: #b789d5;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="headbar">
+            Welcome to the AngelWeb Processor
+        </h1>
+
+        <div class="body">
+            <h1>Welcome! you are using version %shinoascript-dynamic_version%</h1>
+            <p>You can edit svm.html if you wish to modify the server's error response pages<br/>
+                also, the 'svb.gif' is also part of svm.html so, don't remove it unless you modified<br/>
+                the svm.html file to not use it. don't forget to check the documentation (if its already
+                <br/> public) and have fun!</p>
+            <p>Alsooooo, there's a sample custom action in <a href="/test.sec">/test.sec</a> if you want a sample of that :)</p>
+            <p>Made with &lt;3 by <a href="https://github.com/MiyukiNozomi">MiyukiNozomi</a></p>
+        </div>
+    </body>
+</html>

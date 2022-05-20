@@ -1,0 +1,9 @@
+{
+    "port": 5040,
+    "actions": {
+        "test.sec": {
+            "method": "GET",
+            "source": "test.shinoa"
+        }
+    }
+}
