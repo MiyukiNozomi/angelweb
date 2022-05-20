@@ -1,5 +1,5 @@
 # javascript bad
-*.js
+.js
 
 # Logs
 logs
